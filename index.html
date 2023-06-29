@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <title>NFT Preview Card Component Challenge | Frontend Mentor</title>
+</head>
+
+<body class="font-Outfit bg-appBlue">
+
+    <!--Container Position-->
+    <div class="flex justify-center items-center my-28 h-screen lg:my-0">
+        <!--Container-->
+        <div class="w-85 h-xl rounded-3xl bg-cardBlue flex flex-col p-6 space-y-6 lg:h-xxl lg:w-85 ">
+            <!--Image-->
+            <div class="relative">
+                <div>
+                    <img src="images/image-equilibrium.jpg" alt="" class="rounded-2xl hover:cursor-pointer">
+                </div>
+                <div
+                    class="absolute top-0 left-0 bg-cyan flex items-center justify-center w-full h-full rounded-xl bg-opacity-40 opacity-0 hover:opacity-100 transition duration-100 hover:cursor-pointer">
+                    <img src="images/icon-view.svg" alt="">
+                </div>
+            </div>
+            <!--Explanation Part-->
+            <div class="flex flex-col space-y-4 ">
+                <p class="text-white text-2xl font-bold hover:cursor-pointer hover:text-cyan  transition duration-200">
+                    Equilibrim #3429</p>
+                <p class="text-softBlue text-lg">Our Equilibrim promotes balance and calm.</p>
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center space-x-2 text-lg">
+                        <img src="images/icon-ethereum.svg" alt="">
+                        <p class="text-cyan">0.041 ETH</p>
+                    </div>
+                    <div class="flex items-center space-x-2 text-lg">
+                        <img src="images/icon-clock.svg" alt="">
+                        <p class="text-softBlue">3 days left</p>
+                    </div>
+                </div>
+                <hr class="bg-lineBlue h-0.5 border-none">
+                <div class="flex items-center space-x-5">
+                    <img src="images/image-avatar.png" alt="" class="w-12 h-12 rounded-full border-2 border-white">
+                    <p class="text-softBlue text-lg font-bold">Creation of <span
+                            class="text-white hover:cursor-pointer hover:text-cyan transition duration-200">Jules
+                            Wyvern</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
